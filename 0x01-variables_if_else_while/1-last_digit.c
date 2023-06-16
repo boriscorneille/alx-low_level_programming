@@ -3,9 +3,9 @@
 #include <time.h>
 
 /**
- * main-print a sentence according to number
- * 
- * return: always (success)
+ * main - Prints a text according number
+ *
+ * Return: Always (Success)
  */
 int main(void)
 {
