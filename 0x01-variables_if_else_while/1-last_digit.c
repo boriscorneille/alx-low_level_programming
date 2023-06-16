@@ -3,9 +3,9 @@
 #include <time.h>
 
 /**
- * main print the last digit of the number stored in the variable n
- * followed by a new line
- * main always return 0
+ * main-print a sentence according to number
+ * 
+ * return: always (success)
  */
 int main(void)
 {
