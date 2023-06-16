@@ -2,11 +2,11 @@
 
 
 /**
- * main - print alphabet except q and e
- *
- * retun: always (success)
- */
-int main()
+ * main - Prints some letters of alphabet
+  *
+  * Return: Always (Success)
+  */
+int main(void)
 {
 	char c;
 
