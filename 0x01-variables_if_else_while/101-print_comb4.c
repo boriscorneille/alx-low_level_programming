@@ -8,13 +8,13 @@
  */
 int main(void)
 {
-	int i,l,n;
+	int i, l, n;
 
 	for (i = '0'; i <= '9'; i++)
 	{
 		for (l = '0'; l <= '9'; l++)
 		{
-			for ( n = '0'; n <= '9'; n++)
+			for (n = '0'; n <= '9'; n++)
 			{
 				if (i < l && l < n)
 				{
