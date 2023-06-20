@@ -10,16 +10,16 @@
 int _isalpha(int c)
 {
 	char i;
-	int lower_or_upper = 0;
+	int isletter = 0;
 	char n;
 
 	for (i = 'a' ; i <= 'z' ; i++)
 	{
-		for (n = 'A' ; n <= 'A' ; n++)
+		for (n = 'A' ; n <= 'Z' ; n++)
 		{
 			if (c == i || c == n)
-				lower_or_upper = 1;
+				isletter = 1;
 		}
 	}
-	return (lower_or_upper);
+	return (isletter);
 }
