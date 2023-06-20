@@ -15,7 +15,7 @@ int _islower(int c)
 
 	for  (n = 'a' ; n <= 'z' ; n++)
 	{
-		if ( n == c )
+		if (n == c)
 			lower = 1;
 	}
 	return (lower);
