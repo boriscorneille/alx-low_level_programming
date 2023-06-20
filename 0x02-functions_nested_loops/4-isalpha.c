@@ -17,7 +17,7 @@ int _isalpha(int c)
 	{
 		for (n = 'A' ; n <= 'A' ; n++)
 		{
-			if (i == c || n == c)
+			if (c == i || c == n)
 				lower_or_upper = 1;
 		}
 	}
