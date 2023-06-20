@@ -2,10 +2,7 @@
 
 
 /**
- * print_alphabet_x10 - Check alphabet
- * Description: function uses _putchar function to print
- * alphabet in lowercase 10 times
- * Return: Nothing.
+ * print_alphabet_x10 - Prints 10 times the alphabet, in lowercase.
  */
 void print_alphabet_x10(void)
 {
