@@ -2,13 +2,15 @@
 
 
 /**
- * void print_alphabet_x10(void) - print 10 times the alphabet
- *
- * Return: always 0
+ * print_alphabet_x10 - Check holberton
+ * Description: function uses _putchar function to print
+ * alphabet in lowercase 10 times
+ * Return: Nothing.
  */
 void print_alphabet_x10(void)
 {
-	char c;char n = 0;
+	char c;
+	char n = 0;
 	
 	while (n <= 9)
 	{
