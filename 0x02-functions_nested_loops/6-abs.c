@@ -3,8 +3,7 @@
 
 /**
  *_abs - Check the abs
- * @r: An integre input
- * 
+ * @r: An integre input 
  * Return: Absolut value of number r
  */
 int _abs(int r)
