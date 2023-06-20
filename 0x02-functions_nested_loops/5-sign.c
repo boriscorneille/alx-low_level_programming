@@ -3,7 +3,8 @@
 
 /**
  * print_sign - Check main
- * @n: An input number 
+ * @n: An input number
+ * Description: n is positive, n is negative, or 
  * Return: 1 if number is positive, o if number is 0, or
  * -1 if number is negative
  */
