@@ -18,10 +18,12 @@ int main(void)
 		printf("%lu", sum);
 		fb1 = fb2;
 		fb2 = sum;
+
 		if (a == 49)
 			printf("\n");
 		else
 			printf(", ");
 	}
-	return(0);
+
+	return (0);
 }	
