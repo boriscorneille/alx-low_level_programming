@@ -9,7 +9,7 @@
  */
 int main(void)
 {
-	unsigned long fb1 = 0, fb2 = 2, fibsum;
+	unsigned long fb1 = 0, fb2 = 1, fibsum;
        	float tot_sun;
 
 	while (1)
