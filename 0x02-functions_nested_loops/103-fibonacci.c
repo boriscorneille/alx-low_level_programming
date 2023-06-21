@@ -9,7 +9,8 @@
  */
 int main(void)
 {
-	unsigned long fb1 = 0, fb2 = 2, fibsum, tot_sun;
+	unsigned long fb1 = 0, fb2 = 2, fibsum;
+       	float tot_sun;
 
 	while (1)
 	{
@@ -21,6 +22,6 @@ int main(void)
 		fb1 = fb2;
 		fb2 = fibsum;
 	}
-	printf("%lu\n", tot_sun);
+	printf("%.0f\n", tot_sun);
 	return (0);
 }
