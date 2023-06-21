@@ -8,15 +8,21 @@
  */
 int main(void)
 {
-	int count;
-	unsigned long fib1 = 0, fib2 = 1, sum;
+	int a;
+	unsigned long fb1 = 0, fb2 = 1, sum;
 
-	for (count = 0 ; count <= 98 ; count++)
+	for (a = 0; a < 99; a++)
 	{
-		sum = fib1 + fib2;
-	fib1 = fib2;
-	fib2 = sum;
+		sum = fb1 + fb2;
+		printf("%lu", sum);
+
+		fb1 = fb2;
+		fb2 = sum;
+
+		if (a == 98)
+			printf("\n");
+		else
+			printf(", ");
 	}
-	printf("%lu\n", sum);
 	return (0);
 }
