@@ -10,8 +10,7 @@
 int main(void)
 {
 	unsigned long fb1 = 0, fb2 = 1, fibsum;
-       	float tot_sun;
-
+	float tot_sun;
 	while (1)
 	{
 		fibsum = fb1 + fb2;
@@ -19,9 +18,7 @@ int main(void)
 			break;
 		if ((fibsum % 2) == 0)
 			tot_sun += fibsum;
-		fb1 = fb2;
-		fb2 = fibsum;
-	}
-	printf("%.0f\n", tot_sun);
+		fb1 = fb2;fb2 = fibsum;
+	}printf("%.0f\n", tot_sun);
 	return (0);
 }
