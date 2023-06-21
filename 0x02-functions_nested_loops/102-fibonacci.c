@@ -12,10 +12,11 @@ int main(void)
 	int a;
 	unsigned long fb1 = 0, fb2 = 1, sum;
 
-	for (a = 0 ; a < 50 ; a++)
+	for (a = 0; a < 50; a++)
 	{
 		sum = fb1 + fb2;
 		printf("%lu", sum);
+
 		fb1 = fb2;
 		fb2 = sum;
 
