@@ -7,16 +7,15 @@
  * @str: the string to be printed
  *
  */
-void puts2(char *s)
+void puts2(char *str)
 {
-	int a;
+	int index = 0, len = 0;
 
-	for (a = 0; s[a] != '\0'; a++)
-	{
-		if (a % 2 == 0)
-		{
-			putchar(s[a]);
-		}
-	}
+	while (str[index++])
+		len++;
+
+	for (index = 0; index < len; index += 2)
+		putchar(str[index]);
+
 	putchar('\n');
 }
