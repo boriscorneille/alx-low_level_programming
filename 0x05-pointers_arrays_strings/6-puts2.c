@@ -5,7 +5,6 @@
 /**
  * puts2 - print every character of the string 
  * @str: the string to be printed
- *
  */
 void puts2(char *str)
 {
