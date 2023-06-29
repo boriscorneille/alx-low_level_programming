@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * reverse_array - will print elements of an array in reverse
- * @n: will represent elements of an array
- * @a: a pointer to the array to be reversed
+ * reverse_array - reverse the contents of an array of integers
+ * @a: array of integers
+ * @n: number of elements in array
  */
 void reverse_array(int *a, int n)
 {
