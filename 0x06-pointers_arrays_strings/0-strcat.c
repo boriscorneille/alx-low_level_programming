@@ -3,11 +3,10 @@
 
 
 /**
- * _strcat - concatenates two strings
- * @src: string to be concatenated
- * @dest: string to be concatenated
- *
- * Return: a pinter to dest
+ * _strcat - concatenate two strings
+ * @dest: char string to concatenate to
+ * @src: char string
+ * Return: pointer to resulting string `dest`
  */
 char *_strcat(char *dest, char *src)
 {
