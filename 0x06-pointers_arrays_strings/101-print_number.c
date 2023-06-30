@@ -3,49 +3,23 @@
 
 
 /**
- * print_number - Print an integer using only _putchar
- * @n: integer to print
+ * print number - prints an integer
+ * @n: parameter
+ * Return: 0
  */
-
 void print_number(int n)
 {
-	int power;
-	int neg;
-	int hold;
+	unsigned int n1;
 
-	neg = 0;
-	power = 1;
-	hold = n;
+	n1 = n;
 	if (n < 0)
 	{
 		putchar('-');
-		neg = 1;
+		n1 = -n;
 	}
-
-	while (hold > 9 || hold < -9)
+	if (n1 / 10 != 0)
 	{
-		power *= 10;
-		hold /= 10;
+		print_number(n1 / 10);
 	}
-
-	while (power > 0)
-	{
-		if (power > 9)
-		{
-			if (!neg)
-				putchar((n / power % 10) + '0');
-			else
-				putchar((n / power % 10) * -1 + '0');
-
-			power /= 10;
-		}
-		if (power == 1)
-		{
-			if (neg)
-				putchar((n % 10) * -1 + '0');
-			else
-				putchar(n % 10 + '0');
-			power = 0;
-		}
-	}
+	putchar((n1 % 10) + '0');
 }
