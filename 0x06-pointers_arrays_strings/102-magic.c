@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - prints a[2] = 98
+ * main - Entry point of the program
  *
- * Return: 0 always successful
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
